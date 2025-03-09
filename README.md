@@ -206,7 +206,3 @@ Ce projet peut être enrichi progressivement avec:
 ## 📜 Licence
 
 Ce projet est sous licence MIT.
-
-## 👥 Contact
-
-Pour toute question ou suggestion, veuillez contacter [votre-email@example.com] 
