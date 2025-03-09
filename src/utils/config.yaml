@@ -1,0 +1,34 @@
+# Configuration pour le projet Data Warehouse
+# Version simplifiee
+
+database:
+  # Configuration PostgreSQL
+  engine: postgresql
+  user: postgres
+  password: postgres
+  host: localhost
+  port: 5432
+  dbname: data_warehouse
+  schema: public
+  
+etl:
+  # Configuration de base pour le ETL
+  if_exists: append  # Mode d'insertion: 'append' ou 'replace'
+  create_indexes: true  # Whether to create indexes after loading
+  upsert_mode: true  # Use upsert to avoid duplicate key errors
+  
+  # Chemins des fichiers (relatifs au repertoire du projet)
+  data_paths:
+    customers: data/customers_dim.csv
+    products: data/products_dim.csv
+    stores: data/stores_dim.csv
+    time: data/time_dim.csv
+    sales: data/sales_fact.csv
+
+# Configuration pour la generation de donnees (generateurs)
+generators:
+  num_customers: 1000
+  num_products: 500
+  num_stores: 50
+  num_days: 100
+  num_sales: 5000

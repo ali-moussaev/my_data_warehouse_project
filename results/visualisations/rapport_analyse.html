@@ -1,0 +1,129 @@
+
+    <!DOCTYPE html>
+    <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rapport d'analyse des données</title>
+        <style>
+            body {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f5f5f5;
+                color: #333;
+            }
+            .container {
+                max-width: 1200px;
+                margin: 0 auto;
+                background-color: white;
+                padding: 30px;
+                box-shadow: 0 0 20px rgba(0,0,0,0.1);
+                border-radius: 10px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            header {
+                text-align: center;
+                margin-bottom: 30px;
+                border-bottom: 2px solid #3498db;
+                padding-bottom: 20px;
+            }
+            h1 {
+                color: #2c3e50;
+                font-size: 36px;
+                margin-bottom: 10px;
+            }
+            .subtitle {
+                color: #7f8c8d;
+                font-size: 18px;
+            }
+            h2 {
+                color: #3498db;
+                margin-top: 40px;
+                padding-bottom: 10px;
+                border-bottom: 1px solid #eee;
+                display: flex;
+                align-items: center;
+                font-size: 24px;
+            }
+            h2 .emoji {
+                margin-right: 10px;
+                font-size: 28px;
+            }
+            .image-container {
+                margin: 25px 0;
+                text-align: center;
+                background-color: #f9f9f9;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            }
+            img {
+                max-width: 100%;
+                height: auto;
+                border-radius: 8px;
+            }
+            .image-caption {
+                margin-top: 15px;
+                color: #555;
+                font-style: italic;
+            }
+            footer {
+                margin-top: 50px;
+                text-align: center;
+                color: #7f8c8d;
+                font-size: 14px;
+                border-top: 1px solid #eee;
+                padding-top: 20px;
+            }
+            .date {
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>📊 Rapport d'analyse des données</h1>
+                <div class="subtitle">Analyse des données du data warehouse</div>
+            </header>
+    
+            <h2><span class="emoji">📦</span> Ventes par catégorie de produit</h2>
+            <div class="image-container">
+                <img src="sales_by_category.png" alt="Ventes par catégorie de produit">
+                <div class="image-caption">Analyse détaillée des ventes par catégorie de produit</div>
+            </div>
+        
+            <h2><span class="emoji">📅</span> Ventes par mois</h2>
+            <div class="image-container">
+                <img src="sales_by_month.png" alt="Ventes par mois">
+                <div class="image-caption">Analyse détaillée des ventes par mois</div>
+            </div>
+        
+            <h2><span class="emoji">🏙️</span> Nombre de clients par ville</h2>
+            <div class="image-container">
+                <img src="sales_by_city.png" alt="Nombre de clients par ville">
+                <div class="image-caption">Analyse détaillée des nombre de clients par ville</div>
+            </div>
+        
+            <h2><span class="emoji">👥</span> Ventes par tranche d'âge</h2>
+            <div class="image-container">
+                <img src="sales_by_age.png" alt="Ventes par tranche d'âge">
+                <div class="image-caption">Analyse détaillée des ventes par tranche d'âge</div>
+            </div>
+        
+            <h2><span class="emoji">💳</span> Méthodes de paiement</h2>
+            <div class="image-container">
+                <img src="payment_methods.png" alt="Méthodes de paiement">
+                <div class="image-caption">Analyse détaillée des méthodes de paiement</div>
+            </div>
+        
+            <footer>
+                <p>Rapport généré le <span class="date">09/03/2025 à 22:54:26</span></p>
+                <p>Data Warehouse ETL - Pipeline simplifié</p>
+            </footer>
+        </div>
+    </body>
+    </html>
+    

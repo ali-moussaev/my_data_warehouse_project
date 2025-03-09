@@ -1,0 +1,28 @@
+# Environnement et configurations
+.env
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+/.vscode/
+/.idea/
+
+# Données et sorties générées
+/data/
+/visualisations/
+/dashboard/
+/logs/
+*.log
+*.csv
+*.sqlite
+
+# Autres fichiers temporaires
+.DS_Store
+Thumbs.db
+.coverage
+htmlcov/
+.pytest_cache/
+*.tmp
+*.bak 
